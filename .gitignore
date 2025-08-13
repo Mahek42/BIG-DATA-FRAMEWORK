@@ -1,0 +1,28 @@
+# Data files
+data/*.csv
+data/Books_rating.csv
+data/books_data.csv
+
+# Model files
+models/als_model/
+models/rating_predictor_model/
+models/processed_data/
+
+# Generated visualizations
+visualizations/*.png
+visualizations/*.jpg
+visualizations/*.jpeg
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+venv/
+env/
+ENV/
